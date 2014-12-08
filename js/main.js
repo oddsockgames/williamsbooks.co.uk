@@ -8,9 +8,9 @@ var Main = {};
 		currentpage : 0,
 		currentheight : 0, 
 		currentcontent : 0,
-		maxpages : 4,
+		maxpages : 5,
         //galleryInterval: false,
-		totalpages : 4, //max 10
+		totalpages : 5, //max 10
 		busy : false,
     };
 
@@ -78,11 +78,12 @@ var Main = {};
                     Main.changePage( p )
                 break;
 
-                case 48: //0
                 case 49: //1
                 case 50: //2
                 case 51: //3
-                    Main.changePage( parseInt( String.fromCharCode(key) ) )
+                case 52: //3
+                case 53: //4
+                    Main.changePage( parseInt( String.fromCharCode(key) ) -1 )
                 break;
             }
 

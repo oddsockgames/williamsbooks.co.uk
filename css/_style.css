@@ -1,5 +1,5 @@
 /*-[MAIN RESET]-*/
-/* line 14, ../../source/sass/_reset.scss */
+/* line 14, sass/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -22,40 +22,40 @@ time, mark, audio, video {
 }
 
 /*-[OLD BROWSER REST FOR HTML5 ELS]-*/
-/* line 18, ../../source/sass/_reset.scss */
+/* line 18, sass/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
 /*-[LINE HEIGHT]-*/
-/* line 21, ../../source/sass/_reset.scss */
+/* line 21, sass/_reset.scss */
 body {
   line-height: 1;
 }
 
 /*-[LISTS]-*/
-/* line 24, ../../source/sass/_reset.scss */
+/* line 24, sass/_reset.scss */
 ol, ul {
   padding: 0 25px;
 }
-/* line 24, ../../source/sass/_reset.scss */
+/* line 24, sass/_reset.scss */
 ol li, ul li {
   padding-left: 0px;
 }
 
-/* line 25, ../../source/sass/_reset.scss */
+/* line 25, sass/_reset.scss */
 ul {
   list-style: square;
 }
 
 /*-[BLOCKQUOTES]-*/
-/* line 28, ../../source/sass/_reset.scss */
+/* line 28, sass/_reset.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 30, ../../source/sass/_reset.scss */
+/* line 30, sass/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
@@ -63,19 +63,19 @@ q:before, q:after {
 }
 
 /*-[TABLES]-*/
-/* line 33, ../../source/sass/_reset.scss */
+/* line 33, sass/_reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
 /*-[FOCUS]-*/
-/* line 36, ../../source/sass/_reset.scss */
+/* line 36, sass/_reset.scss */
 *:focus, textarea:focus, input:focus {
   outline: none;
 }
 
-/* line 37, ../../source/sass/_reset.scss */
+/* line 37, sass/_reset.scss */
 div, img {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -83,39 +83,39 @@ div, img {
 }
 
 /*-[TEXTAREAS]-*/
-/* line 40, ../../source/sass/_reset.scss */
+/* line 40, sass/_reset.scss */
 textarea {
   resize: none;
   overflow: hidden;
 }
 
-/* line 41, ../../source/sass/_reset.scss */
+/* line 41, sass/_reset.scss */
 ::-webkit-input-placeholder {
   color: grey;
 }
 
-/* line 42, ../../source/sass/_reset.scss */
+/* line 42, sass/_reset.scss */
 :-ms-input-placeholder {
   color: grey;
 }
 
-/* line 43, ../../source/sass/_reset.scss */
+/* line 43, sass/_reset.scss */
 :-moz-placeholder {
   color: grey;
 }
 
-/* line 44, ../../source/sass/_reset.scss */
+/* line 44, sass/_reset.scss */
 ::-moz-placeholder {
   color: grey;
 }
 
-/* line 45, ../../source/sass/_reset.scss */
+/* line 45, sass/_reset.scss */
 * {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /*-[FONT RESET]-*/
-/* line 49, ../../source/sass/_reset.scss */
+/* line 49, sass/_reset.scss */
 p, span, br, input, li {
   -webkit-backface-visibility: visible;
   -webkit-transform: rotate(0.0deg);
@@ -124,7 +124,7 @@ p, span, br, input, li {
   background-color: transparent;
 }
 
-/* line 1, ../../source/sass/_index.scss */
+/* line 1, sass/_index.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -133,7 +133,7 @@ html, body {
   background-color: white;
   font-family: "Droid Sans", sans-serif !important;
 }
-/* line 10, ../../source/sass/_index.scss */
+/* line 10, sass/_index.scss */
 html div#wrapper, body div#wrapper {
   position: relative;
   width: 100%;
@@ -146,12 +146,12 @@ html div#wrapper, body div#wrapper {
   background: linear-gradient(to right, #e8e9e3 0%, #e8e9e3 50%, #000000 50%, #ffffff 50%, #ffffff 100%);
   /* W3C */
 }
-/* line 22, ../../source/sass/_index.scss */
+/* line 22, sass/_index.scss */
 html div#wrapper header#header, html div#wrapper article#article, html div#wrapper footer#footer, body div#wrapper header#header, body div#wrapper article#article, body div#wrapper footer#footer {
   position: absolute;
   width: 100%;
 }
-/* line 26, ../../source/sass/_index.scss */
+/* line 26, sass/_index.scss */
 html div#wrapper header#header div.wrap, html div#wrapper article#article div.wrap, html div#wrapper footer#footer div.wrap, body div#wrapper header#header div.wrap, body div#wrapper article#article div.wrap, body div#wrapper footer#footer div.wrap {
   position: relative;
   width: 100%;
@@ -160,7 +160,7 @@ html div#wrapper header#header div.wrap, html div#wrapper article#article div.wr
   margin: 0 auto;
 }
 @media screen and (max-width: 960px) {
-  /* line 44, ../../source/sass/_index.scss */
+  /* line 44, sass/_index.scss */
   html div#wrapper header#header div.wrap, html div#wrapper article#article div.wrap, html div#wrapper footer#footer div.wrap, body div#wrapper header#header div.wrap, body div#wrapper article#article div.wrap, body div#wrapper footer#footer div.wrap {
     position: relative;
     width: 96%;
@@ -170,12 +170,12 @@ html div#wrapper header#header div.wrap, html div#wrapper article#article div.wr
   }
 }
 
-/* line 1, ../../source/sass/_header.scss */
+/* line 1, sass/_header.scss */
 header#header {
   height: 80px;
   background-color: #544b5c;
 }
-/* line 10, ../../source/sass/_header.scss */
+/* line 10, sass/_header.scss */
 header#header section#bar {
   display: block;
   position: absolute;
@@ -188,7 +188,7 @@ header#header section#bar {
   color: #975059;
   text-align: center;
 }
-/* line 22, ../../source/sass/_header.scss */
+/* line 22, sass/_header.scss */
 header#header section#bar div#logo {
   position: relative;
   display: block;
@@ -199,7 +199,7 @@ header#header section#bar div#logo {
   background-position: center center;
 }
 @media screen and (max-width: 600px) {
-  /* line 39, ../../source/sass/_header.scss */
+  /* line 39, sass/_header.scss */
   header#header section#bar div#logo {
     background-image: url("../imgs/logo.mobile.png");
     margin: 0 auto;
@@ -207,81 +207,77 @@ header#header section#bar div#logo {
   }
 }
 
-/* line 1, ../../source/sass/_footer.scss */
+/* line 1, sass/_footer.scss */
 footer#footer {
-  height: 21px;
-  border-bottom: 3px #50424c solid;
+  height: 16px;
+  border-bottom: 2px #544b5c solid;
   bottom: 0;
 }
-/* line 12, ../../source/sass/_footer.scss */
+/* line 12, sass/_footer.scss */
 footer#footer nav#nav {
   position: absolute;
   width: 50%;
-  height: 100%;
   left: 0;
-  top: 2px;
+  top: 0;
 }
-/* line 19, ../../source/sass/_footer.scss */
+/* line 19, sass/_footer.scss */
 footer#footer nav#nav ul#btns {
   position: relative;
   list-style-type: none;
   width: auto;
-  height: 100%;
 }
-/* line 26, ../../source/sass/_footer.scss */
+/* line 25, sass/_footer.scss */
 footer#footer nav#nav ul#btns li {
   position: relative;
   display: inline-block;
   width: auto;
   cursor: pointer;
-  height: 100%;
 }
-/* line 34, ../../source/sass/_footer.scss */
+/* line 30, sass/_footer.scss */
 footer#footer nav#nav ul#btns li p {
   font-size: 12px;
   width: auto;
-  color: #9d555a;
+  color: #e8e9e3;
 }
-/* line 41, ../../source/sass/_footer.scss */
+/* line 37, sass/_footer.scss */
 footer#footer nav#nav ul#btns li.line p {
-  color: #3b745a;
-}
-/* line 47, ../../source/sass/_footer.scss */
-footer#footer nav#nav ul#btns li.active p {
   color: #ce626a;
 }
-/* line 56, ../../source/sass/_footer.scss */
+/* line 43, sass/_footer.scss */
+footer#footer nav#nav ul#btns li.active p {
+  color: #caef9e;
+}
+/* line 51, sass/_footer.scss */
 footer#footer div#terms {
   position: absolute;
   width: 50%;
-  height: 100%;
   right: 0;
-  top: 2px;
+  bottom: 0;
 }
-/* line 64, ../../source/sass/_footer.scss */
+/* line 58, sass/_footer.scss */
 footer#footer div#terms ul {
   position: relative;
   list-style-type: none;
   width: auto;
 }
-/* line 69, ../../source/sass/_footer.scss */
+/* line 63, sass/_footer.scss */
 footer#footer div#terms ul li {
   position: relative;
   display: inline-block;
   width: auto;
   cursor: pointer;
 }
-/* line 74, ../../source/sass/_footer.scss */
+/* line 68, sass/_footer.scss */
 footer#footer div#terms ul li p {
   font-size: 12px;
   width: auto;
-  color: #9d555a;
+  color: #e8e9e3;
 }
-/* line 81, ../../source/sass/_footer.scss */
+/* line 75, sass/_footer.scss */
 footer#footer div#terms ul li.line p {
   color: #ce626a;
 }
-/* line 89, ../../source/sass/_footer.scss */
+/* line 85, sass/_footer.scss */
 footer#footer section#bar {
   display: block;
   position: absolute;
@@ -292,41 +288,31 @@ footer#footer section#bar {
   text-align: center;
 }
 @media screen and (max-width: 680px) {
-  /* line 1, ../../source/sass/_footer.scss */
+  /* line 1, sass/_footer.scss */
   footer#footer {
     height: 32px;
   }
-  /* line 108, ../../source/sass/_footer.scss */
+  /* line 105, sass/_footer.scss */
   footer#footer nav#nav {
     width: 100%;
-    top: 0px;
   }
-  /* line 113, ../../source/sass/_footer.scss */
+  /* line 109, sass/_footer.scss */
   footer#footer div#terms {
     width: 100%;
-    top: 16px;
-  }
-  /* line 120, ../../source/sass/_footer.scss */
-  footer#footer div#terms ul li p {
-    color: #5e5b76;
-  }
-  /* line 125, ../../source/sass/_footer.scss */
-  footer#footer div#terms ul li.line p {
-    color: #ce626a;
   }
 }
 
-/* line 1, ../../source/sass/_article.scss */
+/* line 1, sass/_article.scss */
 article#article {
   height: auto;
   top: 80px;
-  bottom: 26px;
+  bottom: 20px;
 }
-/* line 7, ../../source/sass/_article.scss */
+/* line 7, sass/_article.scss */
 article#article div.wrap {
   overflow: hidden;
 }
-/* line 12, ../../source/sass/_article.scss */
+/* line 12, sass/_article.scss */
 article#article div#leftside, article#article div#rightside {
   display: table-row;
   position: relative;
@@ -335,146 +321,143 @@ article#article div#leftside, article#article div#rightside {
   height: 100%;
   max-width: 480px;
 }
-/* line 22, ../../source/sass/_article.scss */
+/* line 22, sass/_article.scss */
 article#article div#leftside {
   background-color: #eeefea;
 }
-/* line 27, ../../source/sass/_article.scss */
+/* line 27, sass/_article.scss */
 article#article div#rightside {
   background-color: white;
 }
-/* line 32, ../../source/sass/_article.scss */
+/* line 32, sass/_article.scss */
 article#article div#sections {
   position: absolute;
   display: block;
-  height: 500%;
+  height: 400%;
   width: 100%;
   top: 0;
 }
-/* line 38, ../../source/sass/_article.scss */
+/* line 38, sass/_article.scss */
 article#article div#sections section {
   position: absolute;
   display: block;
-  height: 20%;
+  height: 25%;
   width: 100%;
   top: 0;
 }
-/* line 45, ../../source/sass/_article.scss */
+/* line 45, sass/_article.scss */
 article#article div#sections section:nth-child(2) {
-  top: 20%;
+  top: 25%;
 }
-/* line 48, ../../source/sass/_article.scss */
+/* line 48, sass/_article.scss */
 article#article div#sections section:nth-child(3) {
-  top: 40%;
+  top: 50%;
 }
-/* line 51, ../../source/sass/_article.scss */
+/* line 51, sass/_article.scss */
 article#article div#sections section:nth-child(4) {
-  top: 60%;
+  top: 75%;
 }
-/* line 55, ../../source/sass/_article.scss */
-article#article div#sections section:nth-child(5) {
-  top: 80%;
-}
-/* line 63, ../../source/sass/_article.scss */
+/* line 58, sass/_article.scss */
 article#article div.box {
   position: relative;
-  margin: 25px 25px;
+  margin: 40px 40px;
   width: auto;
   height: auto;
   min-width: 80px;
   min-height: 80px;
 }
-/* line 72, ../../source/sass/_article.scss */
+/* line 67, sass/_article.scss */
 article#article div.box img {
-  margin: 10px 25px;
+  margin: 10px 20px;
 }
-/* line 76, ../../source/sass/_article.scss */
+/* line 71, sass/_article.scss */
 article#article div.box.text {
   text-align: justify;
   text-justify: inter-word;
 }
-/* line 82, ../../source/sass/_article.scss */
+/* line 76, sass/_article.scss */
+article#article div.box.purple {
+  border-left: 2px #5e5b76 solid;
+}
+/* line 78, sass/_article.scss */
 article#article div.box.purple h1, article#article div.box.purple h2, article#article div.box.purple h3, article#article div.box.purple h4 {
   color: #5e5b76;
 }
-/* line 83, ../../source/sass/_article.scss */
+/* line 79, sass/_article.scss */
 article#article div.box.purple p {
   color: black;
 }
-/* line 87, ../../source/sass/_article.scss */
+/* line 82, sass/_article.scss */
+article#article div.box.green {
+  border-left: 2px #397359 solid;
+}
+/* line 84, sass/_article.scss */
 article#article div.box.green h1, article#article div.box.green h2, article#article div.box.green h3, article#article div.box.green h4 {
   color: #397359;
 }
-/* line 88, ../../source/sass/_article.scss */
+/* line 85, sass/_article.scss */
 article#article div.box.green p {
   color: black;
 }
-/* line 91, ../../source/sass/_article.scss */
+/* line 88, sass/_article.scss */
 article#article div.box.red {
-  background-color: #9a4f54;
+  background-color: #9d555a;
 }
-/* line 93, ../../source/sass/_article.scss */
+/* line 90, sass/_article.scss */
 article#article div.box.red h1, article#article div.box.red h2, article#article div.box.red h3, article#article div.box.red h4 {
-  color: #cd6068;
+  color: black;
 }
-/* line 94, ../../source/sass/_article.scss */
+/* line 91, sass/_article.scss */
 article#article div.box.red p {
   color: white;
 }
-/* line 97, ../../source/sass/_article.scss */
+/* line 94, sass/_article.scss */
 article#article div.box h1, article#article div.box h2, article#article div.box h3, article#article div.box h4 {
-  padding: 0 20px;
-  margin: 10px 0;
+  color: #397359;
+  padding: 10px 20px;
   line-height: 1.5;
-  font-weight: bold;
-  height: auto;
-  display: block;
-  position: relative;
 }
-/* line 107, ../../source/sass/_article.scss */
+/* line 100, sass/_article.scss */
 article#article div.box h2 {
   font-size: 20px;
 }
-/* line 108, ../../source/sass/_article.scss */
+/* line 101, sass/_article.scss */
 article#article div.box h4 {
-  font-size: 11px;
-  margin-top: -10px;
-  padding-bottom: 10px;
+  font-size: 10px;
 }
-/* line 110, ../../source/sass/_article.scss */
+/* line 103, sass/_article.scss */
 article#article div.box p {
-  padding: 0 20px;
-  margin: 10px 0;
+  padding: 10px 20px;
   font-size: 14px;
   line-height: 1.5;
 }
-/* line 119, ../../source/sass/_article.scss */
+/* line 111, sass/_article.scss */
 article#article ul.books {
   width: auto;
   height: auto;
-  padding: 0px 0px 5px 0px;
+  padding: 0px 0px 10px 0px;
   font-size: 0;
   list-style-type: none;
 }
-/* line 128, ../../source/sass/_article.scss */
+/* line 119, sass/_article.scss */
 article#article ul.books li.book {
   display: inline-block;
   position: relative;
   width: 102px;
   height: 125px;
-  margin-top: 5px;
-  margin-left: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
   vertical-align: top;
   background-image: url("../imgs/book.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
 }
-/* line 137, ../../source/sass/_article.scss */
+/* line 128, sass/_article.scss */
 article#article ul.books li.book:last-child {
   display: none;
 }
-/* line 146, ../../source/sass/_article.scss */
+/* line 137, sass/_article.scss */
 article#article ul.books li.book span {
   display: none;
   position: absolute;
@@ -484,61 +467,61 @@ article#article ul.books li.book span {
   bottom: -60px;
 }
 @media screen and (max-width: 960px) {
-  /* line 174, ../../source/sass/_article.scss */
+  /* line 165, sass/_article.scss */
   article#article ul.books li.book:last-child {
     display: inline-block;
   }
-  /* line 185, ../../source/sass/_article.scss */
+  /* line 176, sass/_article.scss */
   article#article div.box h1, article#article div.box h2, article#article div.box h3, article#article div.box h4 {
     line-height: 1.3;
   }
-  /* line 189, ../../source/sass/_article.scss */
+  /* line 180, sass/_article.scss */
   article#article div.box h2 {
     font-size: 18px;
   }
-  /* line 191, ../../source/sass/_article.scss */
+  /* line 182, sass/_article.scss */
   article#article div.box p {
     font-size: 13px;
     line-height: 1.3;
   }
-  /* line 197, ../../source/sass/_article.scss */
+  /* line 188, sass/_article.scss */
   article#article div.box:nth-child(2) {
     display: none;
   }
 }
 @media screen and (max-width: 680px) {
-  /* line 209, ../../source/sass/_article.scss */
+  /* line 200, sass/_article.scss */
   article#article div#leftside {
     width: 66%;
   }
-  /* line 213, ../../source/sass/_article.scss */
+  /* line 204, sass/_article.scss */
   article#article div#rightside {
     width: 34%;
   }
-  /* line 219, ../../source/sass/_article.scss */
+  /* line 210, sass/_article.scss */
   article#article div.box h1, article#article div.box h2, article#article div.box h3, article#article div.box h4 {
     line-height: 1.2;
   }
-  /* line 223, ../../source/sass/_article.scss */
+  /* line 214, sass/_article.scss */
   article#article div.box h2 {
     font-size: 16px;
   }
-  /* line 225, ../../source/sass/_article.scss */
+  /* line 216, sass/_article.scss */
   article#article div.box p {
     font-size: 12px;
     line-height: 1.2;
   }
-  /* line 243, ../../source/sass/_article.scss */
+  /* line 235, sass/_article.scss */
   article#article ul.books:nth-child(2) {
     display: none;
   }
-  /* line 249, ../../source/sass/_article.scss */
+  /* line 241, sass/_article.scss */
   article#article div.quote {
     display: none;
   }
 }
 
-/* line 1, ../../source/sass/_shared.scss */
+/* line 1, sass/_shared.scss */
 p {
   display: inline-block;
   position: relative;
@@ -546,31 +529,12 @@ p {
   height: auto;
 }
 
-/* line 9, ../../source/sass/_shared.scss */
+/* line 9, sass/_shared.scss */
 .caps {
   text-transform: uppercase;
 }
 
-/* line 13, ../../source/sass/_shared.scss */
+/* line 13, sass/_shared.scss */
 .clear {
   clear: both;
-}
-
-/* line 15, ../../source/sass/_shared.scss */
-.full {
-  width: 100%;
-}
-
-/* line 19, ../../source/sass/_shared.scss */
-.bold {
-  font-weight: bold;
-}
-
-/* line 25, ../../source/sass/_shared.scss */
-.bor.purple {
-  border-left: 3px #5e5b76 solid;
-}
-/* line 29, ../../source/sass/_shared.scss */
-.bor.green {
-  border-left: 3px #397359 solid;
 }

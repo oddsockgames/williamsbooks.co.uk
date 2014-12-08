@@ -155,7 +155,7 @@ var View = {};
     {
         var my = this, e = this._eleRefs;
 
-        console.log( _page )
+      //  console.log( _page )
 
         e.nav.find('.btn').removeClass('active');
         var i = _page;
@@ -229,10 +229,10 @@ var View = {};
     {
         var my = this, e = this._eleRefs, to, from, time, timeout ;
 
-        log('movesectionsTo[' + _id + '] [' + _time + ']')
+       // log('movesectionsTo[' + _id + '] [' + _time + ']')
         //-move to a certain section, on nav click
         Main.currentheight = $(window).height();
-        time = (_time) ? _time : 3000;
+        time = (_time) ? _time : 500;
         to =  -( ( parseInt( e.sections.css('height') ) / Main.maxpages ) * _id );
         //$('#section-wrap').css('top', to);
         e.sections.stop().animate( {top: to + 'px'}, time, View.easing);
